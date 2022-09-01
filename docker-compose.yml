@@ -8,6 +8,6 @@ services:
     tty: true
     stdin_open: true
     volumes:
-      - .:/go/src/app
+      - .:/go/src/monkey
     ports:
       - 8080:8080
